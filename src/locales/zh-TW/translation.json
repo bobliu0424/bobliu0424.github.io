@@ -1,0 +1,751 @@
+{
+  "quiz": {
+    "welcome": {
+      "title": "台灣價值 TW Values",
+      "content": "台灣價值 是一個政治光譜測驗，透過回答一系列的問題來幫助使用者探索他們的政治意識形態。",
+      "start": "開始測驗!",
+      "privacy": "隱私聲明：本測驗原始碼完全開源，絕對不會收集或是儲存任何個人資訊，請安心使用。"
+    },
+    "introduction": {
+      "title": "什麼是台灣價值？",
+      "description": "台灣價值是一個政治光譜測驗。本測驗總共包含七大主題，每個主題會有兩個相反的價值。使用者總共會被詢問 {{count}} 道題目來確認所屬意識形態與政黨匹配。"
+    },
+    "question_n_of_all": "題目 {{index}} 之 {{all}}",
+    "answers": {
+      "completely_agree": "強烈同意",
+      "agree": "同意",
+      "slightly_agree": "有點同意",
+      "neutral": "中立",
+      "slightly_disagree": "有點反對",
+      "disagree": "反對",
+      "completely_disagree": "強烈反對",
+      "back": "回到上一題"
+    },
+    "questions": {
+      "q0000": {
+        "description": "政府應該要介入經濟活動來保護消費者。"
+      },
+      "q0001": {
+        "description": "應該對有錢人課更多的稅來補貼收入較少的人們。"
+      },
+      "q0002": {
+        "description": "基礎建設像是道路與電力設施應該由政府管理經營。"
+      },
+      "q0003": {
+        "description": "所有人都應該擁有受到優質教育的機會。"
+      },
+      "q0004": {
+        "description": "政府應該大幅增加囤房稅的課稅比重，以實現居住正義。"
+      },
+      "q0100": {
+        "description": "「領低薪應當成做功德。發明無薪假的人應該得諾貝爾獎。」"
+      },
+      "q0101": {
+        "description": "繼承是一種合法的財富。"
+      },
+      "q0102": {
+        "description": "政府的干預是對於經濟活動的一種威脅。"
+      },
+      "q0103": {
+        "description": "有錢人應該受到更好的醫療照護。"
+      },
+      "q0104": {
+        "description": "保持國家預算收支平衡比確保人民福祉來的更重要。"
+      },
+      "q0105": {
+        "description": "我支持財產私有制。"
+      },
+      "q0200": {
+        "description": "在國內居住的外國留學生、勞工應與本國公民享受同等待遇（健保、勞工權益等）。"
+      },
+      "q0201": {
+        "description": "政府應該對國際社會負責。"
+      },
+      "q0202": {
+        "description": "應重啟服貿與貨貿談判，以便從對岸獲取更多經濟利益。"
+      },
+      "q0203": {
+        "description": "我們應開放移民。"
+      },
+      "q0300": {
+        "description": "國際援助（捐款、捐獻物資與派遣救難隊等）是一種浪費。"
+      },
+      "q0301": {
+        "description": "當發生爭議時，無論政治立場如何，我們應該要堅定的站在自己國家這邊。"
+      },
+      "q0302": {
+        "description": "為保護國內產業，必須對進口商品課徵關稅。"
+      },
+      "q0303": {
+        "description": "聯合國應該被廢除。"
+      },
+      "q0304": {
+        "description": "當代的重大問題不是通過演說和多數派決議所能解決的，而僅能通過鐵和血來解決。"
+      },
+      "q0400": {
+        "description": "安樂死應該合法化。"
+      },
+      "q0401": {
+        "description": "國家的存在是對個人自由的威脅。"
+      },
+      "q0402": {
+        "description": "集會遊行不應該需要事先申請。"
+      },
+      "q0403": {
+        "description": "政府應該尊重多數民意的決定，即使該決定是錯誤的。"
+      },
+      "q0404": {
+        "description": "政治領袖們應可以作為文藝作品諷刺或醜化的對象。"
+      },
+      "q0405": {
+        "description": "毒品應該除罪化。"
+      },
+      "q0500": {
+        "description": "投票年齡不應該下修到18歲，因為年輕人不懂事。"
+      },
+      "q0501": {
+        "description": "政府應立法打擊假訊息，即便有可能限制言論自由也沒關係。"
+      },
+      "q0502": {
+        "description": "犧牲部份個人權益來防止恐怖攻擊是可接受的。"
+      },
+      "q0503": {
+        "description": "強人政治對領導國家更有利。"
+      },
+      "q0504": {
+        "description": "即便抗議的是政府的獨裁，暴力也是不被允許的。"
+      },
+      "q0505": {
+        "description": "維護法律與秩序非常重要。"
+      },
+      "q0506": {
+        "description": "國家應該由菁英階級來領導，底層人民不配享有公民權。"
+      },
+      "q0507": {
+        "description": "長期由同一個政黨或政治人物執政是可以接受的，如果是由我所支持的該政黨或政治人物執政的話"
+      },
+      "q0600": {
+        "description": "我們應該鄙棄傳統醫學，只相信現代醫學。"
+      },
+      "q0601": {
+        "description": "宗教團體應該也要被徵稅。"
+      },
+      "q0602": {
+        "description": "同性婚姻應該合法化，中小學應該增加多元性別教育。"
+      },
+      "q0603": {
+        "description": "死刑應該被廢除。"
+      },
+      "q0604": {
+        "description": "我們應該全盤西化，完全捨棄傳統中華文化。"
+      },
+      "q0605": {
+        "description": "女性也有義務要服兵役，共同保家衛國。"
+      },
+      "q0606": {
+        "description": "職業女性在薪資待遇與升遷機會上所受到的不公是真實存在的，而社會應當要正視並解決這一問題"
+      },
+      "q0700": {
+        "description": "過去的社會比現在好多了。"
+      },
+      "q0701": {
+        "description": "通姦不應該除罪化。"
+      },
+      "q0702": {
+        "description": "未婚而發生性行為是不道德的。"
+      },
+      "q0703": {
+        "description": "墮胎應該在大部分或全部的情況下都被禁止。"
+      },
+      "q0704": {
+        "description": "性交易不應該合法。"
+      },
+      "q0705": {
+        "description": "●「年輕漂亮的女生，適合坐櫃檯。」\n●「女性同胞不化妝上街會嚇死人。」\n●「女性超過30歲未結婚的比例太高是一種國安問題。」"
+      },
+      "q0800": {
+        "description": "氣候變遷已經嚴重威脅到人類的生存。"
+      },
+      "q0801": {
+        "description": "為了追求環境保護而造成生活成本上漲是可接受的。"
+      },
+      "q0802": {
+        "description": "因人類行為而造成的物種滅絕是不可接受的。"
+      },
+      "q0803": {
+        "description": "應全力發展再生能源，即使會缺電也沒關係。"
+      },
+      "q0900": {
+        "description": "為追求經濟成長而造成汙染是可接受的。"
+      },
+      "q0901": {
+        "description": "使用成本便宜的化石燃料是必要的。"
+      },
+      "q0902": {
+        "description": "對於魚類捕撈不應該有任何配額限制。"
+      },
+      "q0903": {
+        "description": "若是能得到良好維護，核能仍不失為一個良好的電力來源。"
+      },
+      "q1000": {
+        "description": "臺灣已是主權獨立國家，名稱為中華民國，與對岸互不隸屬。"
+      },
+      "q1001": {
+        "description": "應立刻制定新憲法，宣布成立臺灣共和國。"
+      },
+      "q1002": {
+        "description": "為應對軍事威脅，應提高軍費支出、加強裝備採購與訓練扎實度。"
+      },
+      "q1003": {
+        "description": "Chinese Taipei（中華台北、中國台北）是一種矮化我國主權的稱呼。"
+      },
+      "q1004": {
+        "description": "兩岸對立的本質已經不再僅是政治制度與治理模式上的競爭，而是臺灣的民族自決與大中華主義的本質衝突。"
+      },
+      "q1005": {
+        "description": "將九二共識視為兩岸交流的前提有矮化主權之虞。"
+      },
+      "q1100": {
+        "description": "臺灣是中國自古以來神聖而不可分割的一部份。"
+      },
+      "q1101": {
+        "description": "應立刻與對岸進行政治談判，以達成國家統一，無需考慮對岸當前的政治制度為何。"
+      },
+      "q1102": {
+        "description": "無論兩岸在政治上的紛爭如何，民間都應盡可能保持良好的交流關係。"
+      },
+      "q1103": {
+        "description": "兩岸一家親。"
+      },
+      "q1104": {
+        "description": "三民主義統一中國。"
+      },
+      "q1105": {
+        "description": "如果兩岸的條件—尤其是在政治體制上—逐漸趨於一致，那麼政治上的統一不是不可接受的。"
+      },
+      "q1200": {
+        "description": "應當加強同價值觀相近的西方國家的聯繫與合作，以應對可能的專制威脅。"
+      },
+      "q1201": {
+        "description": "考量對美關係，我們很難拒絕含有萊克多巴胺（瘦肉精）的美國牛肉與豬肉進口"
+      },
+      "q1202": {
+        "description": "當臺海發生戰爭，美軍必定會馳援台灣。"
+      },
+      "q1300": {
+        "description": "歷史顯示，美國的防衛承諾可信度有限，僅仰賴美國的支持應對對岸是不夠的，充實自身武備與交流溝通因而應當並重。"
+      },
+      "q1301": {
+        "description": "兩岸政策的優先遠高於外交政策，比起對西方的外交，維持與對岸官方的關係更加重要。"
+      },
+      "q1302": {
+        "description": "不應理會美國的出口禁令，繼續向對岸提供半導體先進製程製造服務。"
+      },
+      "q1303": {
+        "description": "相較於中共的專制，我們更應當警惕西方將臺海拖入戰爭以謀求自身利益的意圖。"
+      }
+    },
+    "result": {
+      "api_error": {
+        "description": "抱歉，您的結果無法相容於目前新版本，請重新進行測試。",
+        "index": "回到首頁"
+      },
+      "api_warning": {
+        "description": "目前顯示的資料是來自舊的問題集，請重新進行測試以獲得最新結果。"
+      },
+      "diff_card": {
+        "compare_with": "與 {{name}} 的比較",
+        "user": "使用者",
+        "target": "目標"
+      },
+      "share": {
+        "description": "可以使用以下連結，將測試結果與您的朋友們分享",
+        "copy": "複製連結",
+        "copied": "連結已複製"
+      },
+      "topics": {
+        "economic": {
+          "title": "經濟",
+          "categories": {
+            "0": "共產主義",
+            "1": "社會主義",
+            "2": "偏向平等",
+            "3": "中間派",
+            "4": "偏向效率",
+            "5": "資本主義",
+            "6": "自由放任主義"
+          }
+        },
+        "diplomatic": {
+          "title": "外交",
+          "categories": {
+            "0": "世界主義者",
+            "1": "國際主義者",
+            "2": "和平愛好者",
+            "3": "平衡派",
+            "4": "愛國者",
+            "5": "民族主義者",
+            "6": "沙文主義者"
+          }
+        },
+        "civil": {
+          "title": "政治",
+          "categories": {
+            "0": "無政府主義",
+            "1": "自由主義",
+            "2": "偏向自由",
+            "3": "溫和派",
+            "4": "偏向國家",
+            "5": "威權主義",
+            "6": "極權主義"
+          }
+        },
+        "environmental": {
+          "title": "環境",
+          "categories": {
+            "0": "極端環境保護主義",
+            "1": "環境保護主義",
+            "2": "偏向生態",
+            "3": "中間派",
+            "4": "偏向生產",
+            "5": "反環境保護主義",
+            "6": "極端反環境保護主義"
+          }
+        },
+        "societal": {
+          "title": "社會",
+          "categories": {
+            "0": "革命份子",
+            "1": "進步主義",
+            "2": "偏向進步",
+            "3": "中立派",
+            "4": "偏向保守",
+            "5": "保守主義",
+            "6": "反動份子"
+          }
+        },
+        "sovereignty": {
+          "title": "主權",
+          "categories": {
+            "0": "堅定的臺獨份子",
+            "1": "臺獨份子",
+            "2": "偏向獨立",
+            "3": "中立派",
+            "4": "偏向統一",
+            "5": "中華民族擁護者",
+            "6": "堅定的中華民族擁護者"
+          }
+        },
+        "us_vs_china": {
+          "title": "美中",
+          "categories": {
+            "0": "親美主義",
+            "1": "親美",
+            "2": "偏向親美",
+            "3": "中立",
+            "4": "偏向親中",
+            "5": "親中",
+            "6": "中國民族主義"
+          }
+        }
+      },
+      "values": {
+        "equality": {
+          "name": "平等",
+          "description": "平等分數較高的人認為經濟果實應該要公平的分派給眾人。他們傾向於支持累進稅率、社會事業，在極端情況下甚至是社會主義。"
+        },
+        "efficiency": {
+          "name": "效率",
+          "description": "效率分數較高的人認為經濟應專注於快速增長。他們傾向於支持低稅率、私有化財產、放鬆金融管制，在極端情況下甚至是自由放任資本主義。"
+        },
+        "globe": {
+          "name": "國際",
+          "description": "國際分數較高的人支持和平的外交政策，強調外交、合作、整合甚至是統一的世界政府。他們通常是世界主義者。"
+        },
+        "nation": {
+          "name": "國家",
+          "description": "國家分數較高的人支持侵略的外交政策，重視軍事、力量、主權甚至是領土侵略。他們通常是民族主義者。"
+        },
+        "liberty": {
+          "name": "自由",
+          "description": "自由分數較高的人重視個人自由。他們傾向於支持民主並反對國家干預個人自由，在極端情況下甚至是無政府主義。"
+        },
+        "authority": {
+          "name": "威權",
+          "description": "威權分數較高的人重視國家權力。他們傾向於支持政府監視人民與國家干預個人自由，在極端情況下甚至是獨裁專制。"
+        },
+        "ecology": {
+          "name": "生態",
+          "description": "生態分數較高的人認為氣候變遷已經成為人類最大的威脅，像是全球暖化、土地沙漠化、海平面升高與森林大火。他們傾向於支持環境保護與開發再生能源。"
+        },
+        "production": {
+          "name": "生產",
+          "description": "生產分數較高的人認為經濟成長更為重要，即使會造成環境汙染也沒關係。他們傾向於使用便宜的化石燃料而且反對開發再生能源。"
+        },
+        "progress": {
+          "name": "進步",
+          "description": "進步分數較高的人相信社會變革與理性。他們通常世俗或無神論者，而且支持科學與現代科技。"
+        },
+        "tradition": {
+          "name": "傳統",
+          "description": "傳統分數較高的人相信傳統價值與嚴格遵守道德規範。他們可能是宗教信仰者或傾向於維持現狀。"
+        },
+        "independence": {
+          "name": "獨立",
+          "description": "獨立分數較高的人認為應該建立以台灣為主體的國家，並堅持中華人民共和國並未擁有台灣主權。他們通常是台灣民族主義者且傾向於支持自由與民主。"
+        },
+        "unification": {
+          "name": "統一",
+          "description": "統一分數較高的人認為應該只要有一個統一的政府來管理中國大陸與台灣。他們通常是中華民族主義者且傾向於支持實現中華民族的偉大復興。"
+        },
+        "pro_american": {
+          "name": "親美",
+          "description": "親美分數較高的人認為台灣的半導體產業、技術與軍事援助來自於美國的幫助。他們傾向於加入美國的聯盟且支持民主。"
+        },
+        "pro_chinese": {
+          "name": "親中",
+          "description": "親中分數較高的人認為台灣出口導向經濟重度依賴中國市場，無法承受貿易制裁。他們傾向於與中國保持友好關係。"
+        }
+      },
+      "ideologies": {
+        "name": "意識形態",
+        "data": {
+          "anarcho_communism": {
+            "name": "無政府共產主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E7%84%A1%E6%94%BF%E5%BA%9C%E5%85%B1%E7%94%A2%E4%B8%BB%E7%BE%A9"
+          },
+          "libertarian_communism": {
+            "name": "自由意志共產主義",
+            "link": ""
+          },
+          "trotskyism": {
+            "name": "托洛斯基主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%89%98%E6%B4%9B%E8%8C%A8%E5%9F%BA%E4%B8%BB%E4%B9%89"
+          },
+          "marxism": {
+            "name": "馬克思主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89"
+          },
+          "de_leonism": {
+            "name": "德萊昂主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%BE%B7%E8%8E%B1%E6%98%82%E4%B8%BB%E4%B9%89"
+          },
+          "leninism": {
+            "name": "列寧主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%88%97%E5%AE%81%E4%B8%BB%E4%B9%89"
+          },
+          "stalinism": {
+            "name": "史達林主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%96%AF%E5%A4%A7%E6%9E%97%E4%B8%BB%E4%B9%89"
+          },
+          "religious_communism": {
+            "name": "宗教共產主義",
+            "link": ""
+          },
+          "state_socialism": {
+            "name": "國有社會主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%9C%8B%E6%9C%89%E7%A4%BE%E6%9C%83%E4%B8%BB%E7%BE%A9"
+          },
+          "theocratic_socialism": {
+            "name": "神權社會主義",
+            "link": ""
+          },
+          "religious_socialism": {
+            "name": "宗教社會主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%AE%97%E6%95%99%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89"
+          },
+          "democratic_socialism": {
+            "name": "民主社會主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%B0%91%E4%B8%BB%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89"
+          },
+          "revolutionary_socialism": {
+            "name": "革命社會主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E9%9D%A9%E5%91%BD%E7%A4%BE%E6%9C%83%E4%B8%BB%E7%BE%A9"
+          },
+          "liberal_socialism": {
+            "name": "自由社會主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%94%B1%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89"
+          },
+          "libertarian_socialism": {
+            "name": "自由意志社會主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E7%A4%BE%E6%9C%83%E4%B8%BB%E7%BE%A9"
+          },
+          "anarcho_syndicalism": {
+            "name": "無政府工團主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%97%A0%E6%94%BF%E5%BA%9C%E5%B7%A5%E5%9B%A2%E4%B8%BB%E4%B9%89"
+          },
+          "left_wing_populism": {
+            "name": "左翼民粹主義 ",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%B7%A6%E7%BF%BC%E6%B0%91%E7%B2%B9%E4%B8%BB%E7%BE%A9"
+          },
+          "theocratic_distributism": {
+            "name": "神權分產主義",
+            "link": ""
+          },
+          "distributism": {
+            "name": "分產主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%88%86%E4%BA%A7%E4%B8%BB%E4%B9%89"
+          },
+          "social_liberalism": {
+            "name": "社會自由主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E7%A4%BE%E4%BC%9A%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89"
+          },
+          "christian_democracy": {
+            "name": "基督教民主主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%9F%BA%E7%9D%A3%E6%95%99%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9"
+          },
+          "social_democracy": {
+            "name": "社會民主主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E7%A4%BE%E6%9C%83%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9"
+          },
+          "progressivism": {
+            "name": "進步主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E9%80%B2%E6%AD%A5%E4%B8%BB%E7%BE%A9"
+          },
+          "anarcho_mutualism": {
+            "name": "無政府互利主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%BA%92%E5%8A%A9%E8%AB%96_(%E7%B6%93%E6%BF%9F%E5%AD%B8%E7%90%86%E8%AB%96)"
+          },
+          "national_totalitarianism": {
+            "name": "國家極權主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%A5%B5%E6%AC%8A%E4%B8%BB%E7%BE%A9"
+          },
+          "global_totalitarianism": {
+            "name": "全球極權主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%A5%B5%E6%AC%8A%E4%B8%BB%E7%BE%A9"
+          },
+          "technocracy": {
+            "name": "技術官僚主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%B8%93%E5%AE%B6%E7%BB%9F%E6%B2%BB"
+          },
+          "centrist": {
+            "name": "中間主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E9%97%B4%E4%B8%BB%E4%B9%89"
+          },
+          "liberalism": {
+            "name": "自由主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89"
+          },
+          "religious_anarchism": {
+            "name": "宗教無政府主義",
+            "link": ""
+          },
+          "right_wing_populism": {
+            "name": "右翼民粹主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%B3%E7%BF%BC%E6%B0%91%E7%B2%B9%E4%B8%BB%E7%BE%A9"
+          },
+          "libertarian_conservatism": {
+            "name": "自由意志保守主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E4%BF%9D%E5%AE%88%E4%B8%BB%E7%BE%A9"
+          },
+          "liberal_conservatism": {
+            "name": "自由保守主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%94%B1%E4%BF%9D%E5%AE%88%E4%B8%BB%E7%BE%A9"
+          },
+          "reactionary": {
+            "name": "反動",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%8D%E5%8A%A8"
+          },
+          "social_libertarianism": {
+            "name": "社會自由意志主義",
+            "link": ""
+          },
+          "libertarianism": {
+            "name": "自由意志主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E4%B8%BB%E7%BE%A9"
+          },
+          "anarcho_egoism": {
+            "name": "利己無政府主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%88%A9%E5%B7%B1%E6%97%A0%E6%94%BF%E5%BA%9C%E4%B8%BB%E4%B9%89"
+          },
+          "nazism": {
+            "name": "納粹主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E7%BA%B3%E7%B2%B9%E4%B8%BB%E4%B9%89"
+          },
+          "autocracy": {
+            "name": "獨裁",
+            "link": "https://zh.wikipedia.org/zh-tw/%E7%8B%AC%E8%A3%81"
+          },
+          "fascism": {
+            "name": "法西斯主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%B3%95%E8%A5%BF%E6%96%AF%E4%B8%BB%E4%B9%89"
+          },
+          "capitalist_fascism": {
+            "name": "法西斯資本主義",
+            "link": ""
+          },
+          "conservatism": {
+            "name": "保守主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%BF%9D%E5%AE%88%E4%B8%BB%E4%B9%89"
+          },
+          "neo_liberalism": {
+            "name": "新自由主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%96%B0%E8%87%AA%E7%94%B1%E4%B8%BB%E7%BE%A9"
+          },
+          "classical_liberalism": {
+            "name": "古典自由主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%A4%E5%85%B8%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89"
+          },
+          "authoritarian_capitalism": {
+            "name": "威權資本主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%A8%81%E6%9D%83%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89"
+          },
+          "state_capitalism": {
+            "name": "國家資本主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%9B%BD%E5%AE%B6%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89"
+          },
+          "neo_conservatism": {
+            "name": "新保守主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%96%B0%E4%BF%9D%E5%AE%88%E4%B8%BB%E7%BE%A9"
+          },
+          "fundamentalism": {
+            "name": "原教旨主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8E%9F%E6%95%99%E6%97%A8%E4%B8%BB%E7%BE%A9"
+          },
+          "libertarian_capitalism": {
+            "name": "自由意志資本主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%B3%E6%B4%BE%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E4%B8%BB%E7%BE%A9"
+          },
+          "market_anarchism": {
+            "name": "自由市場無政府主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%87%AA%E7%94%B1%E5%B8%82%E5%A0%B4%E7%84%A1%E6%94%BF%E5%BA%9C%E4%B8%BB%E7%BE%A9"
+          },
+          "objectivism": {
+            "name": "客觀主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%AE%A2%E8%A7%80%E4%B8%BB%E7%BE%A9"
+          },
+          "totalitarian_capitalism": {
+            "name": "極權資本主義",
+            "link": ""
+          },
+          "ultra_capitalism": {
+            "name": "超級資本主義",
+            "link": ""
+          },
+          "anarcho_capitalism": {
+            "name": "無政府資本主義",
+            "link": "https://zh.wikipedia.org/zh-tw/%E7%84%A1%E6%94%BF%E5%BA%9C%E8%B3%87%E6%9C%AC%E4%B8%BB%E7%BE%A9"
+          }
+        }
+      },
+      "political_parties": {
+        "name": "政黨",
+        "data": {
+          "kmt": {
+            "name": "中國國民黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%B0%91%E9%BB%A8"
+          },
+          "lp": {
+            "name": "勞動黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8B%9E%E5%8B%95%E9%BB%A8_(%E8%87%BA%E7%81%A3)"
+          },
+          "dpp": {
+            "name": "民主進步黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%B0%91%E4%B8%BB%E9%80%B2%E6%AD%A5%E9%BB%A8"
+          },
+          "np": {
+            "name": "新黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%96%B0%E9%BB%A8"
+          },
+          "gpt": {
+            "name": "台灣綠黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E7%B6%A0%E9%BB%A8"
+          },
+          "pfp": {
+            "name": "親民黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%A6%AA%E6%B0%91%E9%BB%A8"
+          },
+          "tsu": {
+            "name": "台灣團結聯盟",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E5%9C%98%E7%B5%90%E8%81%AF%E7%9B%9F"
+          },
+          "cupp": {
+            "name": "中華統一促進黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E7%B5%B1%E4%B8%80%E4%BF%83%E9%80%B2%E9%BB%A8"
+          },
+          "npp": {
+            "name": "時代力量",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%99%82%E4%BB%A3%E5%8A%9B%E9%87%8F"
+          },
+          "sdp": {
+            "name": "社會民主黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E7%A4%BE%E6%9C%83%E6%B0%91%E4%B8%BB%E9%BB%A8_(%E8%87%BA%E7%81%A3)"
+          },
+          "tsp": {
+            "name": "台灣基進",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E5%9F%BA%E9%80%B2"
+          },
+          "tpp": {
+            "name": "台灣民眾黨",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E6%B0%91%E7%9C%BE%E9%BB%A8"
+          }
+        }
+      },
+      "tags": {
+        "name": "意識形態標籤",
+        "data": {
+          "roc_unification": {
+            "name": "華統",
+            "description": "主張反攻大陸，消滅萬惡共獨勢力，解救大陸同胞於水深火熱之中，由中華民國來治理全中國，並實行三民主義五權憲法。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%B8%89%E6%B0%91%E4%B8%BB%E7%BE%A9%E7%B5%B1%E4%B8%80%E4%B8%AD%E5%9C%8B"
+          },
+          "roc_independence": {
+            "name": "華獨",
+            "description": "主張中華民國放棄大陸領土與主權並承認北京當局共獨分裂勢力為獨立國家。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E8%8F%AF%E7%8D%A8"
+          },
+          "tw_independence": {
+            "name": "台獨",
+            "description": "主張制定新憲法成立台灣共和國，與中華人民共和國成為兩個完全獨立的國家。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%8D%A8_(%E8%A1%93%E8%AA%9E)"
+          },
+          "prc_unification": {
+            "name": "紅統",
+            "description": "支持台灣併入中華人民共和國，實施一國兩制。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E4%B8%80%E5%9B%BD%E4%B8%A4%E5%88%B6"
+          },
+          "iron_blood": {
+            "name": "鐵血",
+            "description": "出自1862年俾斯麥在議會試圖通過軍費預算案時的鐵血演說。當代對於該詞彙的想像更多的著重在強硬、重視力量的意象上，這意味著他們在一些問題上更可能支持強硬或武力的解決方案。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E9%90%B5%E8%A1%80%E6%BC%94%E8%AA%AA"
+          },
+          "death_penalty_abolitionists": {
+            "name": "廢死",
+            "description": "廢除死刑，以無期徒刑或其他刑罰取代之。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%AD%BB%E5%88%91%E5%AD%98%E5%BB%A2%E5%95%8F%E9%A1%8C"
+          },
+          "homophobia": {
+            "name": "恐同",
+            "description": "同性戀恐懼亦稱恐同或反同，是指對同性戀的排斥，包括涉及反感、鄙視、厭惡、仇恨、偏見和歧視，可能是基於恐懼，有時也涉及到受宗教信仰及社會文化的影響。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%90%8C%E6%80%A7%E6%88%80%E6%81%90%E6%87%BC"
+          },
+          "male_chauvinism": {
+            "name": "男性沙文主義",
+            "description": "又稱男性沙文主義、男性至上主義、男性優越主義或者大男人主義，是一種認為男尊女卑、男性必定優於女性，因此男性更應統治女性的意識形態。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E7%94%B7%E5%AD%90%E4%B8%BB%E4%B9%89"
+          },
+          "feminism": {
+            "name": "女性主義",
+            "description": "又譯女權主義，既是一套龐大的平權理論，也是一系列社會運動的總稱，其最終目的是建立一個對所有性別都平等的友善社會。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%A5%B3%E6%80%A7%E4%B8%BB%E7%BE%A9"
+          },
+          "feminism_buffet": {
+            "name": "女權自助餐",
+            "description": "意指那些以女權之名獲得男女平等帶來的利益的同時，又不願意放棄父權紅利的女性。",
+            "link": ""
+          },
+          "political_apathy": {
+            "name": "政治異化",
+            "description": "意指公民個人對現行政治制度的疏遠感或排斥感。在代議制民主國家，這通常會導致選民冷漠，以及在選舉中棄選和棄投。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E6%94%BF%E6%B2%BB%E7%95%B0%E5%8C%96"
+          },
+          "multiculturalism": {
+            "name": "多元文化主義",
+            "description": "多元文化主義支持各種擁有不同的文化的族群皆可以生活在同一個社會之中並相互尊重以及受到同等待遇。",
+            "link": "https://zh.wikipedia.org/zh-tw/%E5%A4%9A%E5%85%83%E6%96%87%E5%8C%96%E4%B8%BB%E7%BE%A9"
+          }
+        }
+      }
+    }
+  }
+}

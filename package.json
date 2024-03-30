@@ -1,0 +1,62 @@
+{
+  "name": "tw-values",
+  "version": "0.50.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@stylexjs/stylex": "^0.5.1",
+    "antd": "^5.7.0",
+    "i18next": "^23.2.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2",
+    "react-router-dom": "^6.14.1",
+    "semver": "^7.6.0",
+    "zustand": "^4.5.1"
+  },
+  "scripts": {
+    "start": "vite",
+    "test": "vitest",
+    "lint:check": "eslint ./src",
+    "lint": "eslint --fix ./src",
+    "release:major": "npm version major -m \"Bump version to v%s.\"",
+    "release:minor": "npm version minor -m \"Bump version to v%s.\"",
+    "release:patch": "npm version patch -m \"Bump version to v%s.\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^5.0.0",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11",
+    "vite-plugin-stylex": "^0.5.0",
+    "vite-tsconfig-paths": "^4.2.3",
+    "vitest": "^1.2.0"
+  }
+}
